@@ -6,7 +6,7 @@ function App() {
       <header className="App-header">
         <h2>Header</h2>
       </header>
-      <sidebar>Sidebar</sidebar>
+      <section>Hola</section>
       <section>Content</section>
     </div>
   )
