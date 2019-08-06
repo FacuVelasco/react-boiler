@@ -1,0 +1,170 @@
+{
+  "general": {
+    "header": null,
+    "heroVideo": "string",
+    "whyP5": {
+      "title": {
+        "text": "string",
+        "subtext": "string"
+      },
+      "bubbles": [
+        {
+          "title": "string",
+          "subtitle": "string",
+          "text": "string"
+        }
+      ],
+      "paragraph1": "string",
+      "paragraph2": "string"
+    },
+    "phones": ["string"],
+    "email": "string",
+    "fblink": "string",
+    "iglink": "string",
+    "twlink": "string",
+    "lnlink": "string"
+  },
+  "bootcamp": {
+    "testimonios": {
+      "title": {
+        "text": "string",
+        "subtext": "string"
+      },
+      "videos": [
+        {
+          "videoId": "string",
+          "title": "string"
+        }
+      ]
+    },
+    "career": {
+      "title": {
+        "text": "string",
+        "subtext": "string"
+      },
+      "cards": [
+        {
+          "title": "string",
+          "subtitle": "string"
+        }
+      ]
+    },
+    "program": {
+      "title": {
+        "text": "string",
+        "subtext": "string"
+      },
+      "weeks": [
+        {
+          "header": "string",
+          "week": "string",
+          "hasList": "boolean",
+          "items": ["string"]
+        }
+      ]
+    },
+    "schedule": {
+      "title": {
+        "text": "string",
+        "subtext": "string"
+      },
+      "dates": [
+        {
+          "header": "string",
+          "initialDate": "string",
+          "endDate": "string",
+          "weekDays": "string",
+          "startHours": "string",
+          "endHours": "string",
+          "address": "string",
+          "city": "string",
+          "country": "string",
+          "mapLink": "string",
+          "availability": "string"
+        }
+      ]
+    },
+    "prices": {
+      "title": {
+        "text": "string",
+        "subtext": "string"
+      },
+      "intro": {
+        "title": "string",
+        "subtitle": "string",
+        "text": "string",
+        "price": "string",
+        "currency": "string"
+      },
+      "bootcamp": {
+        "title": "string",
+        "subtitle": "string",
+        "text": "string",
+        "price": "string",
+        "currency": "string"
+      },
+      "paragraph": "string",
+      "text1": {
+        "title": "string",
+        "text": "string"
+      },
+      "text2": {
+        "title": "string",
+        "text": "string"
+      },
+      "footnote": "string"
+    }
+  },
+  "intro": {
+    "hero": {
+      "title": "string",
+      "subtitle": "string",
+      "text": "string"
+    },
+    "price": {
+      "amount": "string",
+      "currency": "string",
+      "discount": "string"
+    },
+    "duration": {
+      "hours": "number",
+      "weeks": "number"
+    }
+  },
+  "program": {
+    "title": {
+      "text": "string",
+      "subtext": "string"
+    },
+    "weeks": [
+      {
+        "header": "string",
+        "week": "string",
+        "hasList": "boolean",
+        "items": ["string"]
+      }
+    ]
+  },
+  "schedule": {
+    "title": {
+      "text": "string",
+      "subtext": "string"
+    },
+    "dates": [
+      {
+        "header": "string",
+        "initialDate": "string",
+        "endDate": "string",
+        "weekDays": "string",
+        "startHours": "string",
+        "endHours": "string",
+        "address": "string",
+        "city": "string",
+        "country": "string",
+        "mapLink": "string",
+        "bootcampMonth": "string",
+        "availability": "string"
+      }
+    ]
+  }
+}
