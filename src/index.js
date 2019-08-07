@@ -1,12 +1,10 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import "./styles/globals.scss"
+
 import App from "./App"
 import * as serviceWorker from "./serviceWorker"
 
 require("dotenv").config()
-
-console.log("ENV", process.env.APP_ENV)
 
 ReactDOM.render(<App />, document.getElementById("root"))
 

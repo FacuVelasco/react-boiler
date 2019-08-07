@@ -67,5 +67,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-docker build -t backoffice:client .
+docker build -t client:backoffice .
 docker container run -it -p 3000:3000 -p 35729:35729 -v \$(pwd):/app backoffice:client

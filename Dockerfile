@@ -1,4 +1,4 @@
-FROM node:10
+FROM node
 
 ADD yarn.lock /yarn.lock
 ADD package.json /package.json
@@ -15,5 +15,4 @@ EXPOSE 3000
 # WebSocket endpoint (only for dev)
 EXPOSE 35729
 
-ENTRYPOINT ["/bin/bash", "/app/run.sh"]
-CMD ["start"]
+CMD ["yarn", "start"]
