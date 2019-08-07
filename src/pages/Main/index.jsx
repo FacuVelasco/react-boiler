@@ -13,13 +13,15 @@ export default class Main extends Component {
         <header className={s.header}>
           <h2>Header</h2>
         </header>
-        <section>Sidebar</section>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/landing" component={Landing} />
-          {/* <Route path="/pledu" component={PleduPage} // LATER /> */}
-          <Route path="" component={NotFound} />
-        </Switch>
+        <section className={s.content}>
+          <div className={s.sidebar}>Sidebar</div>
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/landing" component={Landing} />
+            {/* <Route path="/pledu" component={PleduPage} // LATER /> */}
+            <Route path="" component={NotFound} />
+          </Switch>
+        </section>
       </div>
     )
   }

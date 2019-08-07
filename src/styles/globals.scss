@@ -1,6 +1,25 @@
 /* Document
  * ========================================================================== */
 
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900&display=swap");
+
+/**
+ * Set the font by default (opinionated).
+ */
+
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+/**
+ * Make the body use the full height
+ */
+
+html,
+body {
+  min-height: 100vh;
+}
+
 /**
  * Add border box sizing in all browsers (opinionated).
  */
